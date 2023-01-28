@@ -19,7 +19,7 @@ exports.new_blog_post = [
         if(err) {
           return res.json({error: err, result: result})
         } else {
-          res.json({msg: 'Blog post successfully created (:'})
+          res.json({msg: 'Blog post successfully created (:', status: 200})
         }
       })
     }

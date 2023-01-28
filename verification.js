@@ -15,4 +15,3 @@ exports.verifyToken = (req, res, next) =>  {
     res.sendStatus(403);
   }
 }
-
